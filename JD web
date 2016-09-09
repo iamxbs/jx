@@ -1,0 +1,2922 @@
+<!DOCTYPE html>
+<html>
+     <head>
+		<meta charset="utf-8" />
+		<title>京东(JD.COM)-综合网购首选-正品低价、品质保障、配送及时、轻松购物！</title>
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" type="text/css" href="JD.css"/>
+        <style>
+        body{
+				margin:0px;
+				width:1287px;
+				height:4910px;
+                position:relative;
+			}
+            .header{
+                width:100%;
+                height:30px;
+                background-color:#f1f1f1;
+                position:absolute;
+            }
+            #sendto{
+                width:120px;
+                position:absolute;
+                left:48px;
+            }
+            p{
+                font-size:12px;
+                color:#666;
+                line-height:30px;
+                margin-top:0px;
+                margin-bottom:0px;
+                margin-left:10px;
+            }
+            #sendto img{
+                position:absolute;
+                left:80px;
+                top:7px;
+            }
+            table{
+                border-left:1px solid #E5E5E5;
+                border-bottom:1px solid #E5E5E5;
+                border-right:1px solid #E5E5E5;
+                padding-left:20px;
+                border-collapse:collapse;
+                text-align:center;
+                position:absolute;
+                color:#666;
+                left:0px;
+                top:30px;
+                width:313px;
+                height:266px;
+                display:none;
+                z-index:100000;
+            }
+            #tr,#td{
+                width:50px;
+                height:30px;
+                border:1px solid white;
+            }
+            #font{
+                font-size:12px;
+                float:left;
+                color:#666;
+            }
+            a{
+                text-decoration:none;
+                color:black;
+            }
+            .top{
+                float:left;
+                color:#666;
+            }
+            .top_{
+                width:80px;
+                height:30px;
+                float:left;
+                color:#666;
+            }
+            #first{
+                color:red;
+            }
+            #right{
+                /*margin-top:30px;
+                margin-right:400px;*/
+                margin-left:590px;
+                z-index:1000;
+            }
+            #right .top_>a{
+                font-size:12px;
+                line-height:30px;
+                text-align:center;
+            }
+            #right .top>a{
+                font-size:12px;
+                line-height:30px;
+                text-align:center;
+                padding: 0 8px;
+                margin: 1px 0;
+                height: 16px;
+                border-left: 1px solid #e0e0e0;
+                white-space: nowrap;
+            }
+            .tx{
+                width:282px;
+                height:193px;
+                border:1px solid #e0e0e0;
+                border-top:0px;
+                position:absolute;
+                top:30px;
+                left:815px;
+                z-index: 2000;
+                background-color:white;
+                display:none;
+            }
+            .message>a,.firlist>a,.seclist>a{
+                font-size:12px;
+                line-height:24px;
+            }
+            .qtx{
+                width:100px;
+                height:90px;
+                float:left;
+            }
+            .tx .qtx .cl{
+                width:60px;
+                height:60px;
+                border-radius:50%;
+                overflow:hidden;
+                background-image:url('qtx.jpg');
+                background-size:cover;
+                background-repeat: no-repeat;
+                margin-left:20px;
+                margin-top:10px;
+            }
+            .enter{
+                width:182px;
+                height:90px;
+                float:left;
+            }
+            .message{
+                margin:0px auto;
+            }
+            .message>a:nth-child(1){
+                padding:0px 8px;
+                height:16px;
+                border-right:1px solid #e0e0e0;
+                white-space: nowrap;
+            }
+            .wh{
+                margin-top:30px;
+                margin-left:10px;
+                font-size:14px;
+                font-weight:bold;
+                font-family: 微软雅黑;
+            }
+            .firlist{
+                width:60px;
+                height:103px;
+                float:left;
+                margin-left:20px;
+            }
+            .seclist{
+                width:60px;
+                height:103px;
+                float:right;
+                margin-right:80px;
+            }
+            span{
+                color:#E5E5E5;
+            }
+            a.first{
+                color:red;
+            }
+            .mid{
+                width:100%;
+                height:100px;
+            }
+            #pic{
+                width:400px;
+                height:100px;
+                margin-left:50px;
+                margin-top:50px;
+                background-image:url('JD.png');
+                background-repeat:no-repeat;
+                float:left;
+            }
+            #input>input{
+                width:456px;
+                height:30px;
+                position:absolute;
+                top:55px;
+                left:400px;
+                outline:0;
+                border-width: 2px 0 2px 2px;
+                border-color: #B61D1D;
+                border-style: solid;
+                font-size:14px;
+                font-family:微软雅黑;
+            }
+            #search{
+                width:82px;
+                height:36px;
+                background-color:#B61D1D;
+                position:absolute;
+                top:55px;
+                left:856px;
+                border:none;
+                line-height: 1;
+                color: #fff;
+                font-family:微软雅黑;
+                font-size: 16px;
+                cursor: pointer;
+            }
+
+
+
+            #shopcar{
+                width:141px;
+                height:36px;
+                position:absolute;
+                left:1040px;
+                top:55px;
+                border:1px solid #E5E5E5;
+                background-color:#F5F5F5;
+            }
+            .buy{
+                width:100px;
+                height:36px;
+                font-size:14px;
+                position:absolute;
+                left:50px;
+                top:9px;
+                font: 12px/150% Arial,Verdana,"\5b8b\4f53";
+            }
+            #img{
+                width:41px;
+                height:36px;
+                position:absolute;
+                left:20px;
+                top:9px;
+            }
+            #img img{
+                width:18px;
+            }
+            .buy span{
+                font-size:14px;
+                margin-left:8px;
+                color:black;
+            }
+            .things{
+                width:310px;
+                height:71px;
+                position:absolute;
+                border:1px solid #E5E5E5;
+                left:-170px;
+                top:36px;
+                z-index:50000;
+                background-color:white;
+                /*box-shadow:0px 0px 3px #666;*/
+                display:none;
+            }
+            #t_img{
+                height:71px;
+                width:80px;
+                position:absolute;
+                left:20px;
+            }
+            .t_buy{
+                height:71px;
+                width:230px;
+                position:absolute;
+                left:100px;
+                top:26px;
+                font: 12px/150% Arial,Verdana,"\5b8b\4f53";
+            }
+            .tj{
+                float:left;
+                font: 12px/150% Arial,Verdana,"\5b8b\4f53";
+                width:55px;
+                height:20px;
+            }
+
+            .goods{
+                position:absolute;
+                top:100px;
+                left:400px;
+            }
+            .tj a{
+                margin:0px auto;
+            }
+            #redline a{
+                color:red;
+            }
+            #firorder{
+                width:100%;
+                height:46px;
+            }
+
+
+
+            .A_order{
+                position:absolute;
+                left:250px;
+                top:130px;
+            }
+            .dh{
+                float:left;
+                margin:13px 20px;
+                font-family:微软雅黑;
+            }
+            a:hover{
+                color:red;
+            }
+            #firorder hr{
+                width:100%;
+                height:2px;
+                margin:0xp;
+                border:0px;
+                background-color:#B1191A;
+                position:absolute;
+                top:165px;
+            }
+            #side{
+                width:210px;
+                height:511px;
+                position:absolute;
+                left:40px;
+                top:130px;
+                font-family:微软雅黑;
+            }
+            #stop{
+                background-color:#B1191A;
+                width:210px;
+                height:46px;
+                
+            }
+            #stop p{
+                font: 400 15px/44px "microsoft yahei";
+                color:white;
+                width:150px;
+            }
+            #su{
+                position:absolute;
+                padding:0px;
+                left:0px;
+                top:30px;
+                border-bottom:1px solid #b61d1d;
+            }
+            #su .sl{
+                width:208px;
+                height:31px;
+                border-right:1px solid #b61d1d;
+                border-left:1px solid #b61d1d;
+                background-color:#b61d1d;
+                list-style-type:none;
+            } 
+            .sl p{
+                width:190px;
+                height:31px;
+                font-size:14px;
+                line-height:31px;
+                color:white;
+            }
+            .sl p span{
+                font-size:14px;
+                float:right;
+            }
+            .sl .sr{
+                width:999px;
+                min-height:455px;
+                padding: 0px 0px 20px 0px;
+                border:1px solid #b61d1d;
+                position:absolute;
+                top:-2px;
+                left:209px;
+                display:none;
+                background-color:white; 
+                z-index: 20;
+            }
+            .sl .sr .srt{
+                float:left;
+                font-size:13px;
+                margin:20px;
+            }
+            .srt a{
+                display: inline-block;
+                padding: 0 0 0 8px;
+                margin-right: 10px;
+                line-height: 24px;
+                background: #7C7171;
+                color: #fff;
+                white-space: nowrap;
+            }
+            .srt a i{
+                display: inline-block;
+                margin-left: 8px;
+                width: 23px;
+                height: 24px;
+                font: 400 9px/24px consolas;
+                background: #5c5251;
+                text-align: center;
+                cursor: pointer;
+            }
+            .srb{
+                width:100px;
+            }
+            .srb .srbl{
+                margin-top:18px;
+                width:80px;
+                margin-left:19px;
+                text-align:right;
+            }
+            .srbl a{
+                display:inline-block;
+                font-size:12px;
+                color:#7C7171;
+                font-weight:bold;
+            }
+            .srbl a i{
+                display:inline-block;
+                margin-left: 4px;
+                width: 23px;
+                height: 24px;
+                font: 400 9px/24px consolas;
+            }
+            .sl .srl{
+                position:absolute;
+                top:50px;
+                left:119px;
+            }
+            .srl .srly{
+                font-size:12px;
+                line-height:25px;
+                margin-top:18px;
+            }
+            .srly a{
+                color: #7C7171;
+                padding: 0 8px;
+                border-left: 1px solid #e0e0e0;
+                white-space: nowrap;
+            }
+            .sr .jpg{
+                width:170px;
+                height:423px;
+                position:absolute;
+                top:15px;
+                left:815px;
+            }
+            a:hover{
+                color:#B1191A;
+            }
+            #imgs{
+                width:730px;
+                height:454px;
+                background-image:url('mz.jpg');
+                transition:all 0.5s linear 0s;
+                position:absolute;
+                top:192px;
+                left:260px;
+                z-index:19;
+            }
+            #index{
+                width:115px;
+                height:25px;
+                position:absolute;
+                bottom:0px;
+                left:308px;
+            }
+            .c{
+                width:15px;
+                height:15px;
+                border-radius:50%;
+                background:#595959;
+                position:absolute;
+                z-index:21;
+            }
+            .c1_{
+                background-color:red;
+                left:-20px;
+            }
+            .c2_{
+                left:10px;
+            }
+            .c3_{
+                left:40px;
+            }
+            .c4_{
+                left:70px;
+            }
+            .c5_{
+                left:100px;
+            }
+            .c6_{
+                left:130px;
+            }
+            .c7_{
+                left:160px;
+            }
+
+            .news{
+                width:250px;
+                height:458px;
+                overflow: hidden;
+                top: 12px;
+                background-color:white;
+                /*border: solid 1px #e4e4e4;
+                border-bottom: 0;*/
+                position:absolute;
+                top:185px;
+                left:1000px;
+                z-index:10;
+            }
+            .nt{
+                border-bottom:solid 1px #e4e4e4;
+            }
+            .news .nt .nhead{
+                height:33px;
+                font-size:16px;
+                line-height: 32px;
+                font-family:微软雅黑;
+                margin-left:10px;
+            }
+            .news .nt .nhead a{
+                float:right;
+                margin-right:12px;
+                height:33px;
+                font-size:14px;
+                line-height: 32px;
+                font-family:微软雅黑;
+            }
+            .nb{
+                height:131px;
+            }
+            .nb a{
+                color:black;
+                font-size:12px;
+                float:left;
+                margin-top:10px;
+            }
+            .news a:hover{
+                color:red;
+                cursor:pointer;
+            }
+            .nb a span{
+                color:black;
+                font-size:13px;
+                font-weight:bold;
+            }
+            .tickets{
+                height:215px;
+                border:solid 1px #e4e4e4;
+                border-right:0px;
+            }
+            .khpic{
+                position:absolute;
+                left:0px;
+                top:390px;
+                width:250px;
+                height:75px;
+            }
+            .tickets .tdiv{
+                width:61px;
+                height:71px;
+                border:solid 1px #e4e4e4;
+                border-top:0px;
+                border-left:0px;
+                float:left;
+            }
+            .tdiv a img{
+                margin-top:10px;
+                margin-left:18px;
+                margin-bottom:5px;
+            }
+            .tdiv p{
+                margin-bottom:2px;
+                margin-left:0px;
+                text-align:center;
+            }
+            .tdiv a p:hover{
+                color:red;
+            }
+            .tickets>.buytic{
+                position:absolute;
+                top:382px;
+                left:-1px;
+                /*top:165px;*/
+                border-sizing:border-box;
+                width:250px;
+                height:217px;
+                border:solid 1px #e4e4e4;
+                background-color:white;
+                display:none;
+            }
+            .buytic>.buytop{
+                width:250px;
+                height:30px;
+                background-color:white;
+            }
+            .buytop>div{
+                float:left;
+                width:62px;
+                text-align:center;
+            }
+            .buytop>a{
+                float:left;
+                width:62px;
+                /*padding:0px 11px;*/
+                /*border-right:1px solid black;*/
+                text-align:center;
+            }
+            .buytop>div>a>p{
+                margin:0px;
+                border-right:1px solid #e4e4e4;
+            }
+            .buytop>div>a>.last{
+                border-right:0px;
+            }
+
+            .buylow{
+                width:250px;
+                height:191px;
+            }
+            .buylow>.Ttable{
+                height:34px;
+            }
+            .Ttable>a{
+                float:left;
+                margin:2px 10px;
+            }
+            .Ttable>a>p{
+                margin:0px;
+            }
+            .Ltable>form{
+                margin-top:10px;
+            }
+            .Ltable>form>.shm>.num>input{
+                width:150px;
+                height:20px;
+                outline-color:white;
+                /*float:left;*/
+            }
+            .shm>.num{
+                width:30px;
+                height:26px;
+                font-size:12px;
+                line-height:26px;
+                margin-right:10px;
+                float:left;
+            }
+            form>.ll{
+                width:30px;
+                height:26px;
+                font-size:12px;
+                line-height:26px;
+                margin-right:10px;
+                float:left;
+            }
+            #country{
+                width:70px;
+                height:26px;
+            }
+            form>.liz{
+                float:right;
+                height:26px;
+                font-size:12px;
+                line-height:26px;
+                margin-right:50px;
+                color:red;
+            }
+            form>button{
+                background-color:#B61D1D;
+                height:25px;
+                font-size:12px;
+                line-height:25px;
+                font-family: 微软雅黑;
+                color:white;
+                padding:0px 4px;
+                border:0px;
+                border-radius:2px;
+            }
+                
+            
+            
+            
+            
+            
+            .mtj{
+                height:151px;
+                width:210px;
+                position:absolute;
+                top:650px;
+                background-image:url('strag.jpg');
+                background-size:cover;
+                left:40px;
+            }
+            .cir{
+                margin-left:70px;
+                margin-top:30px;
+                margin-right:70px;
+                width:70px;
+                height:70px;
+                background-color:rgba(0,0,0,0);
+                box-sizing:border-box;
+                border:12px solid white;
+                border-radius:50%;
+            }
+            .mtj h1{
+                display:inline-block;
+                height:30px;
+                font-size:20px;
+                line-height:30px;
+                font-family: 微软雅黑;
+                color:white;
+                margin-left:63px;
+                margin-top:0px;
+            }
+            /*.play{
+                width:1207px;
+                height:4100px;
+                background-image:url("a.png");
+                position:absolute;
+                top:810px;
+                margin:0px 40px;
+                overflow:hidden;
+            }
+            .all>div{
+            width:80px;
+            height:50px;
+            text-align:center;
+            font-size:25px;
+            font-weight:bold;
+            line-height:50px;
+            position:fixed;
+            font-family:Chiller;
+            top:100px;
+            left:1200px;
+            z-index: 5000000;
+            background-color:rgba(255,255,255,0);
+            }
+            .all>.tb{
+                display:none;
+            }
+            .all>.tb>p{
+                margin:0px;
+            }
+            #A1{
+                top:150px;
+            }
+            #B2{
+                top:200px;
+            }
+            #C3{
+                top:250px;
+            }
+            #D4{
+                top:300px;
+            }
+            #E5{
+                top:350px;
+            }
+            #F6{
+                top:400px;
+            }
+            #H7{
+                line-height:25px;
+                top:480px;
+                font-size:20px;
+                background-color:rgba(255,255,255,0);
+            }*/
+            </style>
+        <script src="jquery-3.1.0.js"></script>
+        <script>
+            $(function(){
+                $("#sendto").hover(function(){
+                    $(this).css({
+                        "background-color":"white",
+                        "border":"1px solid #E5E5E5",
+                        "border-bottom":"1px solid white",
+                        "border-top":"1px solid white"
+                    });
+                    $(this).children().first().css({
+                            "transform":"rotateZ(180deg)"
+                    });
+                    $(this).children().last().css({
+                        "background-color":"white"
+                    });
+                    $(this).children().last().fadeIn("fast");
+                    },function(){
+                            $(this).css({
+                                "background-color":"#f1f1f1",
+                                "border":"0"
+                        });
+                            $(this).children().first().css({
+                            "transform":"rotateZ(0deg)"
+                        });
+                            $(this).children().last().hide("fast");
+                    });
+                $("body").click(function(){
+                    $("#tl").hide(); 
+                    $("#sendto").css({
+                        "background-color":"#f1f1f1",
+                        "border":"0",
+                    });
+                });
+                $("#myjd").hover(function(){
+                        $(this).css({
+                                "background-color":"white",
+                                "border":"1px solid #E5E5E5",
+                                "border-bottom":"1px solid white",
+                                "border-top":"1px solid white"
+                        });
+                        $(this).children().last().fadeIn("fast");
+                },function(){
+                        $(this).css({
+                                "background-color":"transparent",
+                                "border":"0px;"
+                        });
+                        $(this).children().last().hide("fast");
+                })
+                    $("#shopcar").hover(function(){
+                        $("#shopcar").css({
+                        "background-color":"white",
+                        "border-buttom":"0",               
+                    });
+                    $(".things").fadeIn();
+                    },function(){
+                         $("#shopcar").css({
+                        "background-color":"#F5F5F5",
+                        "border-buttom":"1px solid #E5E5E5",
+                    });
+                         $(".things").hide();
+                    });
+
+
+                    $(".sl").hover(function(){
+                        $(this).css({
+                            "background-color":"white",
+                            "cursor":"pointer",
+                            // "border-right":"none"
+                        });
+                        $("#tl").hide(); 
+                        $("#sendto").css({
+                        "background-color":"#f1f1f1",
+                        "border":"0",
+                    });
+                        $(this).children().first().css({
+                            "color":"black"
+                        });
+                        $(this).children().children().first().hide();
+                        $(this).children().last().fadeIn("fast");
+                    },function(){
+                        $(this).css({
+                            "background-color":"#b61d1d",
+                            "cursor":"normal"
+                        });
+                        $(this).children().first().css({
+                            "color":"white"
+                        });
+                        $(this).children().children().first().fadeIn("fast");
+                        $(this).children().last().hide();
+                    });
+                    $(".sr").click(function(){
+                            $(this).css({
+                                    "display":"none"
+                            });
+                    });
+                    $(".sdiv").hover(function(){
+                            $(".buytic").css({
+                                    "display":"inline-block",
+                                //     "z-index":"4000000"
+                            });
+                            $(".buytic").animate({"top":"165px"},"normal","linear");
+                    },function(){
+                        //     $(".buytic").animate({"top":"382px"},"normal","linear");
+                        //      $(".buytic").css({
+                        //             "display":"none"
+                    });
+                    $(".buytic").click(function(){
+                            $(".buytic").animate({"top":"382px"},"normal","linear");
+                    });
+                    $(".tb").hover(function(){
+                    $(this).css({
+                     "background-color":"rgba(3,168,158,0.4)",
+                     "cursor":"pointer"
+                    });
+                    },function(){
+                    $(this).css({
+                     "background-color":"rgba(255,255,255,0)"
+                    });
+               });
+             $("#A1").click(function(){
+                 $("body").animate({scrollTop:'1010px'},200);
+             });
+             $("#B2").click(function(){
+                 $("body").animate({scrollTop:'1560px'},200);
+             });
+             $("#C3").click(function(){
+                 $("body").animate({scrollTop:'2110px'},200);
+             });
+             $("#D4").click(function(){
+                 $("body").animate({scrollTop:'2710px'},200);
+             });
+             $("#E5").click(function(){
+                 $("body").animate({scrollTop:'3310px'},200);
+             });
+             $("#F6").click(function(){
+                 $("body").animate({scrollTop:'3910px'},200);
+             });
+             $("#H7").click(function(){
+                 $("body").scrollTop(0);
+                 $("div:not(#H)").css({
+                      "background-color":"rgba(255,255,255,0)"
+                 });
+             });
+             $(window).scroll(function(){
+                 var top = $("body").scrollTop();
+       
+             if(top>=0 && top<810){
+             $(".tb").css({
+                     "display":"none"
+             });
+                  $("#A1").css({
+                      "background-color":"rgba(255,255,255,0)"
+                 });
+             }else{
+                     $(".tb").css({
+                     "display":"inline-block"
+             });
+             }
+             if(top>=1010 && top<1560){
+                 $("#A1").css({
+                      "background-color":"rgba(3,168,158,0.4)"
+                 });
+                 $("div:not(#A1)").css({
+                      "background-color":"rgba(255,255,255,0)"
+                 });
+             }else 
+             if(top>=1560 && top<2110){
+                 $("#B2").css({
+                      "background-color":"rgba(3,168,158,0.4)"
+                 });
+                 $("div:not(#B2)").css({
+                      "background-color":"rgba(255,255,255,0)"
+                 });
+             }else 
+             if(top>=2110 && top<2710){
+                 $("#C3").css({
+                      "background-color":"rgba(3,168,158,0.4)"
+                 });
+                 $("div:not(#C3)").css({
+                      "background-color":"rgba(255,255,255,0)"
+                 });
+             }else 
+             if(top>=2710 && top<3310){
+                 $("#D4").css({
+                      "background-color":"rgba(3,168,158,0.4)"
+                 });
+                 $("div:not(#D4)").css({
+                      "background-color":"rgba(255,255,255,0)"
+                 });
+             }else 
+             if(top>=3310 && top<3910){
+                 $("#E5").css({
+                      "background-color":"rgba(3,168,158,0.4)"
+                 });
+                 $("div:not(#E5)").css({
+                      "background-color":"rgba(255,255,255,0)"
+                 });
+             }else 
+             if(top>=3910 && top<4227){
+                 $("#F6").css({
+                      "background-color":"rgba(3,168,158,0.4)"
+                 });
+                 $("div:not(#F6)").css({
+                      "background-color":"rgba(255,255,255,0)"
+                 });
+             };
+             });
+            });
+            </script>
+        <script>
+            $(function(){
+            var cs = document.getElementsByClassName("c");
+            var c1 = document.getElementsByClassName("c1_");
+            var c2 = document.getElementsByClassName("c2_");
+            var c3 = document.getElementsByClassName("c3_");
+            var c4 = document.getElementsByClassName("c4_");
+            var c5 = document.getElementsByClassName("c5_");
+            var c6 = document.getElementsByClassName("c6_");
+            var c7 = document.getElementsByClassName("c7_");
+            var imgs = document.getElementById("imgs");
+            var imgarr = ["mz.jpg","919.jpg","iphone.jpg","ljm.jpg","hp.jpg","computer.jpg","buy.jpg"];
+            var index = 0;
+            var key;
+            var move;
+            function move(){
+             index++;
+             if(index == 6){
+                 index = 0;
+             }
+             imgs.style.backgroundImage = "url('"+imgarr[index]+"')";
+             Array.prototype.forEach.call(cs,function(x,i){
+                if(i == index){
+                    x.style.backgroundColor = "red";
+                }else{
+                    x.style.backgroundColor = "#595959";
+                }
+            });
+            };
+             key = setInterval(move,2000);
+             $(".c1_").click(function(){
+                     clearInterval(key);
+                     $("#imgs").css({
+                             "background-image":"url('mz.jpg')"
+                     });
+                     $(this).css({
+                             "background-color":"red"
+                     });
+                     $(".c:not(_c1)").css({
+                             "background-color":"#595959"
+                     });
+                     key = setInterval(move,2000);
+             });
+             $(".c2_").click(function(){
+                     clearInterval(key);
+                     $("#imgs").css({
+                             "background-image":"url('919.jpg')"
+                     });
+                     $(this).css({
+                             "background-color":"red"
+                     });
+                     $(".c:not(_c1)").css({
+                             "background-color":"#595959"
+                     });
+                     key = setInterval(move,2000);
+             });
+             $(".c3_").click(function(){
+                     clearInterval(key);
+                     $("#imgs").css({
+                             "background-image":"url('iphone.jpg')"
+                     });
+                     $(this).css({
+                             "background-color":"red"
+                     });
+                     $(".c:not(_c1)").css({
+                             "background-color":"#595959"
+                     });
+                     key = setInterval(move,2000);
+             });
+             $(".c4_").click(function(){
+                     clearInterval(key);
+                     $("#imgs").css({
+                             "background-image":"url('ljm.jpg')"
+                     });
+                     $(this).css({
+                             "background-color":"red"
+                     });
+                     $(".c:not(_c1)").css({
+                             "background-color":"#595959"
+                     });
+                     key = setInterval(move,2000);
+             });
+             $(".c5_").click(function(){
+                     clearInterval(key);
+                     $("#imgs").css({
+                             "background-image":"url('hp.jpg')"
+                     });
+                     $(this).css({
+                             "background-color":"red"
+                     });
+                     $(".c:not(_c1)").css({
+                             "background-color":"#595959"
+                     });
+                     key = setInterval(move,2000);
+             });
+             $(".c6_").click(function(){
+                     clearInterval(key);
+                     $("#imgs").css({
+                             "background-image":"url('computer.jpg')"
+                     });
+                     $(this).css({
+                             "background-color":"red"
+                     });
+                     $(".c:not(_c1)").css({
+                             "background-color":"#595959"
+                     });
+                     key = setInterval(move,2000);
+             });
+             $(".c7_").click(function(){
+                     clearInterval(key);
+                     $("#imgs").css({
+                             "background-image":"url('buy.jpg')"
+                     });
+                     $(this).css({
+                             "background-color":"red"
+                     });
+                     $(".c:not(_c1)").css({
+                             "background-color":"#595959"
+                     });
+                     key = setInterval(move,2000);
+             });
+            });
+        </script>
+     </head>
+     <body>
+	<div class="header">
+            <div id="left">
+                <div id="sendto">
+                        <img src="down.png">
+                        <p>送至: 北京</p>
+                <table id="tl">
+                   <tr id="tr">
+                        <td id="td"><div id="font"><a href="#">北京</a></div></td>
+                        <td id="td"><div id="font"><a href="#">上海</a></div></td>
+                        <td id="td"><div id="font"><a href="#">天津</a></div></td>
+                        <td id="td"><div id="font"><a href="#">重庆</a></div></td>
+                        <td id="td"><div id="font"><a href="#">河北</a></div></td>
+                   </tr>
+                   <tr id="tr">
+                        <td id="td"><div id="font"><a href="#">山西</a></div></td>
+                        <td id="td"><div id="font"><a href="#">河南</a></div></td>
+                        <td id="td"><div id="font"><a href="#">辽宁</a></div></td>
+                        <td id="td"><div id="font"><a href="#">吉林</a></div></td>
+                        <td id="td"><div id="font"><a href="#">黑龙江</a></div></td>
+                    </tr>
+                    <tr id="tr">
+                        <td id="td"><div id="font"><a href="#">内蒙古</a></div></td>
+                        <td id="td"><div id="font"><a href="#">江苏</a></div></td>
+                        <td id="td"><div id="font"><a href="#">山东</a></div></td>
+                        <td id="td"><div id="font"><a href="#">安徽</a></div></td>
+                        <td id="td"><div id="font"><a href="#">浙江</a></div></td>
+                   </tr>
+                   <tr id="tr">
+                        <td id="td"><div id="font"><a href="#">福建</a></div></td>
+                        <td id="td"><div id="font"><a href="#">湖北</a></div></td>
+                        <td id="td"><div id="font"><a href="#">湖南</a></div></td>
+                        <td id="td"><div id="font"><a href="#">广东</a></div></td>
+                        <td id="td"><div id="font"><a href="#">广西</a></div></td>
+                    </tr>
+                    <tr id="tr">
+                        <td id="td"><div id="font"><a href="#">江西</a></div></td>
+                        <td id="td"><div id="font"><a href="#">四川</a></div></td>
+                        <td id="td"><div id="font"><a href="#">海南</a></div></td>
+                        <td id="td"><div id="font"><a href="#">贵州</a></div></td>
+                        <td id="td"><div id="font"><a href="#">云南</a></div></td>
+                   </tr>
+                   <tr id="tr">
+                        <td id="td"><div id="font"><a href="#">西藏</a></div></td>
+                        <td id="td"><div id="font"><a href="#">陕西</a></div></td>
+                        <td id="td"><div id="font"><a href="#">甘肃</a></div></td>
+                        <td id="td"><div id="font"><a href="#">青海</a></div></td>
+                        <td id="td"><div id="font"><a href="#">宁夏</a></div></td>
+                    </tr>
+                    <tr id="tr">
+                        <td id="td"><div id="font"><a href="#">新疆</a></div></td>
+                        <td id="td"><div id="font"><a href="#">台湾</a></div></td>
+                        <td id="td"><div id="font"><a href="#">香港</a></div></td>
+                        <td id="td"><div id="font"><a href="#">澳门</a></div></td>
+                        <td id="td"><div id="font"><a href="#">钓鱼岛</a></div></td>
+                   </tr>
+                   <tr id="tr">
+                        <td id="td"><div id="font"><a href="#">海外</a></div></td>
+                        <td id="td"><div id="font"></div></td>
+                        <td id="td"><div id="font"></div></td>
+                        <td id="td"><div id="font"></div></td>
+                        <td id="td"><div id="font"></div></td>
+                   </tr>
+                </table>
+                </div>
+            </div>
+            <div id="right">
+                <div class="top_"><a href="#">你好,请登录</a></div>
+                <div class="top_"><a href="#" class="first">免费注册</a></div>
+                <div class="top"><a href="#">我的订单</a></div>
+                <div class="top" id="myjd">
+                        <a href="#">我的京东</a>
+                        <div class="tx">
+                                <div class="qtx">
+                                        <a href="#"><div class="cl"></div></a>
+                                </div>
+                                <div class="enter">
+                                        <div class="wh">您好,请登录</div>
+                                        <div class="message">
+                                                <a href="#">优惠券</a>
+                                                <a href="#">消息</a>
+                                                </div>
+                                </div>
+                                <div class="firlist">
+                                        <a href="#">待处理订单</a>
+                                        <a href="#">咨询回复</a>
+                                        <a href="#">降价产品</a>
+                                        <a href="#">返修退换货</a>
+                                </div>
+                                <div class="seclist">
+                                        <a href="#">我的关注</a>
+                                        <a href="#">我的京豆</a>
+                                        <a href="#">我的理财</a>
+                                        <a href="#">京东白条</a>
+                                </div>
+                        </div>
+                </div>        
+                <div class="top"><a href="#">京东会员</a></div>
+                <div class="top"><a href="#">企业采购</a></div>
+                <div class="top"><a href="#">手机京东</a></div>
+                <div class="top"><a href="#">关注京东</a></div>
+                <div class="top"><a href="#">客户服务</a></div>
+                <div class="top"><a href="#">网页导航 </a></div>
+            </div>
+        </div>
+        <!--以上头部-->
+        <div class="mid">
+            <div id="pic"></div>
+            <div id="input">
+                 <input type="text" autofocus placeholder="金融">
+                 <button id="search">搜索</button>
+                 <div class="goods">
+                     <div class="tj" id="redline"><a href="#">低至9.9</a></div>
+                     <div class="tj"><a href="#">家电秒杀</a></div>
+                     <div class="tj"><a href="#">农用物资</a></div>
+                     <div class="tj"><a href="#">中秋拍卖</a></div>
+                     <div class="tj"><a href="#">买3免1</a></div>
+                     <div class="tj"><a href="#">祛斑霜</a></div>
+                     <div class="tj"><a href="#">蕾丝裙</a></div>
+                     <div class="tj"><a href="#">1元专享</a></div>
+                     <div class="tj"><a href="#">阿迪达斯</a></div>
+                 </div>
+            </div>
+        </div>
+        <!--以上搜索部分-->
+        <div id="shopcar">
+                <div id="img"><img src="shopcar.png"></div>
+                <div class="buy">我的购物车<span>></span></div>
+                <div class="things">
+                    <div id="t_img"><img src="car.png"></div>
+                    <div class="t_buy">购物车中还没有商品，赶紧选购吧!</div>
+                </div>
+            </div>
+        <!--以上购物车-->
+        <div id="firorder">
+                <div class="A_order">
+                     <div class="dh"><a href="#">服装城</a></div>
+                     <div class="dh"><a href="#">美妆馆</a></div>
+                     <div class="dh"><a href="#">京东超市</a></div>
+                     <div class="dh"><a href="#">生鲜</a></div>
+                     <div class="dh"><a href="#">全球购</a></div>
+                     <div class="dh"><a href="#">闪购</a></div>
+                     <div class="dh"><a href="#">团购</a></div>
+                     <div class="dh"><a href="#">拍卖</a></div>
+                     <div class="dh"><a href="#">金融</a></div>
+                 </div>
+                 <hr>
+            </div>
+        <!--以上第一栏菜单-->
+        <div id="side">
+                <div id="stop">
+                    <p>全部商品分类</p>
+                </div>
+                <ul id="su">
+                    <li class="sl">
+                        <p>家用电器 <span>></span></p>
+                        <div class="sr">
+                            <div class="srt">
+                                <a href="#">家电城<i>></i></a>
+                                <a href="#">品牌日<i>></i></a>
+                                <a href="#">智能生活馆<i>></i></a>
+                                <a href="#">京东净化馆<i>></i></a>
+                                <a href="#">京东帮服务店<i>></i></a>
+                                <a href="#">家电众筹馆<i>></i></a>
+                            </div>
+                            <div class="srb">
+                                    <dt class="srbl"><a href="#">电视<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">空调<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">洗衣机<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">厨卫大电<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">厨房小电<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">生活电器<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">个护健康<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">家庭影音<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">进口电器<i>></i></a></dt>
+                            </div>
+                            <div class="srl">
+                                    <dt class="srly">
+                                            <a href="#">合资品牌</a>
+                                            <a href="#">国产品牌</a>
+                                            <a href="#">互联网品牌</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">壁挂式空调</a>
+                                            <a href="#">柜式空调</a>
+                                            <a href="#">中央空调</a>
+                                            <a href="#">空调配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">滚筒洗衣机</a>
+                                            <a href="#">洗烘一体机</a>
+                                            <a href="#">波轮洗衣机</a>
+                                            <a href="#">迷离洗衣机</a>
+                                            <a href="#">洗衣机配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">多门</a>
+                                            <a href="#">对开门</a>
+                                            <a href="#">三门</a>
+                                            <a href="#">双门</a>
+                                            <a href="#">冷柜/冰吧</a>
+                                            <a href="#">酒柜</a>
+                                            <a href="#">冰箱配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">油烟机</a>
+                                            <a href="#">燃气灶</a>
+                                            <a href="#">烟灶套装</a>
+                                            <a href="#">消毒柜</a>
+                                            <a href="#">洗碗机</a>
+                                            <a href="#">电热水器</a>
+                                            <a href="#">燃气热水器</a>
+                                            <a href="#">嵌入式厨电</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">电饭煲</a>
+                                            <a href="#">微波炉</a>
+                                            <a href="#">电烤箱</a>
+                                            <a href="#">电磁炉</a>
+                                            <a href="#">豆浆机</a>
+                                            <a href="#">咖啡机</a>
+                                            <a href="#">电压力锅</a>
+                                            <a href="#">榨汁机</a>
+                                            <a href="#">面包机</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">电风扇</a>
+                                            <a href="#">冷风扇</a>
+                                            <a href="#">吸尘器</a>
+                                            <a href="#">净化器</a>
+                                            <a href="#">扫地机器人</a>
+                                            <a href="#">加湿器</a>
+                                            <a href="#">挂熨机/熨斗</a>
+                                            <a href="#">取暖电器</a>
+                                            <a href="#">电话机</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">剃须刀</a>
+                                            <a href="#">口腔护理</a>
+                                            <a href="#">电吹风</a>
+                                            <a href="#">美容器</a>
+                                            <a href="#">理发器</a>
+                                            <a href="#">剃/脱毛器</a>
+                                            <a href="#">足浴盆</a>
+                                            <a href="#">按摩器</a>
+                                            <a href="#">计步器/脂肪检测仪</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">家庭影院</a>
+                                            <a href="#">迷你音响</a>
+                                            <a href="#">DVD</a>
+                                            <a href="#">电视影音配件</a>
+                                    </dt>
+                            </div>
+                            <div class="jpg">
+                                <a href="#"><img src="1391.tmp.jpg"/></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="sl">
+                        <p>手机、数码、京东通信 <span>></span></p>
+                        <div class="sr">
+                            <div class="srt">
+                                <a href="#">玩3C<i>></i></a>
+                                <a href="#">手机频道<i>></i></a>
+                                <a href="#">网上营业厅<i>></i></a>
+                                <a href="#">配件城<i>></i></a>
+                                <a href="#">影像Club<i>></i></a>
+                                <a href="#">以旧换新<i>></i></a>
+                            </div>
+                            <div class="srb">
+                                    <dt class="srbl"><a href="#">手机通讯<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">京东通信<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">运营商<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">手机配件<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">摄影摄像<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">数码配件<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">影音娱乐<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">智能设备<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">电子教育<i>></i></a></dt>
+                            </div>
+                            <div class="srl">
+                                <dt class="srly">
+                                            <a href="#">合资品牌</a>
+                                            <a href="#">国产品牌</a>
+                                            <a href="#">互联网品牌</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">壁挂式空调</a>
+                                            <a href="#">柜式空调</a>
+                                            <a href="#">中央空调</a>
+                                            <a href="#">空调配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">滚筒洗衣机</a>
+                                            <a href="#">洗烘一体机</a>
+                                            <a href="#">波轮洗衣机</a>
+                                            <a href="#">迷离洗衣机</a>
+                                            <a href="#">洗衣机配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">多门</a>
+                                            <a href="#">对开门</a>
+                                            <a href="#">三门</a>
+                                            <a href="#">双门</a>
+                                            <a href="#">冷柜/冰吧</a>
+                                            <a href="#">酒柜</a>
+                                            <a href="#">冰箱配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">油烟机</a>
+                                            <a href="#">燃气灶</a>
+                                            <a href="#">烟灶套装</a>
+                                            <a href="#">消毒柜</a>
+                                            <a href="#">洗碗机</a>
+                                            <a href="#">电热水器</a>
+                                            <a href="#">燃气热水器</a>
+                                            <a href="#">嵌入式厨电</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">电饭煲</a>
+                                            <a href="#">微波炉</a>
+                                            <a href="#">电烤箱</a>
+                                            <a href="#">电磁炉</a>
+                                            <a href="#">豆浆机</a>
+                                            <a href="#">咖啡机</a>
+                                            <a href="#">电压力锅</a>
+                                            <a href="#">榨汁机</a>
+                                            <a href="#">面包机</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">电风扇</a>
+                                            <a href="#">冷风扇</a>
+                                            <a href="#">吸尘器</a>
+                                            <a href="#">净化器</a>
+                                            <a href="#">扫地机器人</a>
+                                            <a href="#">加湿器</a>
+                                            <a href="#">挂熨机/熨斗</a>
+                                            <a href="#">取暖电器</a>
+                                            <a href="#">电话机</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">剃须刀</a>
+                                            <a href="#">口腔护理</a>
+                                            <a href="#">电吹风</a>
+                                            <a href="#">美容器</a>
+                                            <a href="#">理发器</a>
+                                            <a href="#">剃/脱毛器</a>
+                                            <a href="#">足浴盆</a>
+                                            <a href="#">按摩器</a>
+                                            <a href="#">计步器/脂肪检测仪</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">家庭影院</a>
+                                            <a href="#">迷你音响</a>
+                                            <a href="#">DVD</a>
+                                            <a href="#">电视影音配件</a>
+                                    </dt>
+                            </div>
+                            <div class="jpg">
+                                <a href="#"><img src="714E.tmp.jpg"/></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="sl">
+                        <p>电脑、办公 <span>></span></p>
+                        <div class="sr">
+                            <div class="srt">
+                                <a href="#">玩3C<i>></i></a>
+                                <a href="#">本周热卖<i>></i></a>
+                                <a href="#">游戏部落<i>></i></a>
+                                <a href="#">GAME+<i>></i></a>
+                                <a href="#">装机大师<i>></i></a>
+                                <a href="#">办公生活馆<i>></i></a>
+                            </div>
+                            <div class="srb">
+                                    <dt class="srbl"><a href="#">电脑整机<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">电脑配件<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">外设产品<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">游戏设备<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">网络产品<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">办公设备<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">文具耗材<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">服务产品<i>></i></a></dt>
+                            </div>
+                            <div class="srl">
+                                    <dt class="srly">
+                                            <a href="#">壁挂式空调</a>
+                                            <a href="#">柜式空调</a>
+                                            <a href="#">中央空调</a>
+                                            <a href="#">空调配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">滚筒洗衣机</a>
+                                            <a href="#">洗烘一体机</a>
+                                            <a href="#">波轮洗衣机</a>
+                                            <a href="#">迷离洗衣机</a>
+                                            <a href="#">洗衣机配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">多门</a>
+                                            <a href="#">对开门</a>
+                                            <a href="#">三门</a>
+                                            <a href="#">双门</a>
+                                            <a href="#">冷柜/冰吧</a>
+                                            <a href="#">酒柜</a>
+                                            <a href="#">冰箱配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">油烟机</a>
+                                            <a href="#">燃气灶</a>
+                                            <a href="#">烟灶套装</a>
+                                            <a href="#">消毒柜</a>
+                                            <a href="#">洗碗机</a>
+                                            <a href="#">电热水器</a>
+                                            <a href="#">燃气热水器</a>
+                                            <a href="#">嵌入式厨电</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">电饭煲</a>
+                                            <a href="#">微波炉</a>
+                                            <a href="#">电烤箱</a>
+                                            <a href="#">电磁炉</a>
+                                            <a href="#">豆浆机</a>
+                                            <a href="#">咖啡机</a>
+                                            <a href="#">电压力锅</a>
+                                            <a href="#">榨汁机</a>
+                                            <a href="#">面包机</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">电风扇</a>
+                                            <a href="#">冷风扇</a>
+                                            <a href="#">吸尘器</a>
+                                            <a href="#">净化器</a>
+                                            <a href="#">扫地机器人</a>
+                                            <a href="#">加湿器</a>
+                                            <a href="#">挂熨机/熨斗</a>
+                                            <a href="#">取暖电器</a>
+                                            <a href="#">电话机</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">剃须刀</a>
+                                            <a href="#">口腔护理</a>
+                                            <a href="#">电吹风</a>
+                                            <a href="#">美容器</a>
+                                            <a href="#">理发器</a>
+                                            <a href="#">剃/脱毛器</a>
+                                            <a href="#">足浴盆</a>
+                                            <a href="#">按摩器</a>
+                                            <a href="#">计步器/脂肪检测仪</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">家庭影院</a>
+                                            <a href="#">迷你音响</a>
+                                            <a href="#">DVD</a>
+                                            <a href="#">电视影音配件</a>
+                                    </dt>
+                            </div>
+                            <div class="jpg">
+                                <a href="#"><img src="C856.tmp.jpg"/></a>
+                            </div>
+                        </div
+                    ></li>
+                    <li class="sl">
+                        <p>家居、家具、家装、厨具 <span>></span></p>
+                        <div class="sr">
+                            <div class="srt">
+                                <a href="#">家装节<i>></i></a>
+                                <a href="#">家装城<i>></i></a>
+                                <a href="#">居家日用<i>></i></a>
+                                <a href="#">精品家具<i>></i></a>
+                                <a href="#">家装建材<i>></i></a>
+                                <a href="#">厨房达人<i>></i></a>
+                                <a href="#">装修服务<i>></i></a>
+                            </div>
+                            <div class="srb">
+                                    <dt class="srbl"><a href="#">厨具<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">家装建材<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">家纺<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">家具<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">灯具<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">生活日用<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">家装软饰<i>></i></a></dt>
+                            </div>
+                            <div class="srl">
+                                    <dt class="srly">
+                                            <a href="#">滚筒洗衣机</a>
+                                            <a href="#">洗烘一体机</a>
+                                            <a href="#">波轮洗衣机</a>
+                                            <a href="#">迷离洗衣机</a>
+                                            <a href="#">洗衣机配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">多门</a>
+                                            <a href="#">对开门</a>
+                                            <a href="#">三门</a>
+                                            <a href="#">双门</a>
+                                            <a href="#">冷柜/冰吧</a>
+                                            <a href="#">酒柜</a>
+                                            <a href="#">冰箱配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">油烟机</a>
+                                            <a href="#">燃气灶</a>
+                                            <a href="#">烟灶套装</a>
+                                            <a href="#">消毒柜</a>
+                                            <a href="#">洗碗机</a>
+                                            <a href="#">电热水器</a>
+                                            <a href="#">燃气热水器</a>
+                                            <a href="#">嵌入式厨电</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">电饭煲</a>
+                                            <a href="#">微波炉</a>
+                                            <a href="#">电烤箱</a>
+                                            <a href="#">电磁炉</a>
+                                            <a href="#">豆浆机</a>
+                                            <a href="#">咖啡机</a>
+                                            <a href="#">电压力锅</a>
+                                            <a href="#">榨汁机</a>
+                                            <a href="#">面包机</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">电风扇</a>
+                                            <a href="#">冷风扇</a>
+                                            <a href="#">吸尘器</a>
+                                            <a href="#">净化器</a>
+                                            <a href="#">扫地机器人</a>
+                                            <a href="#">加湿器</a>
+                                            <a href="#">挂熨机/熨斗</a>
+                                            <a href="#">取暖电器</a>
+                                            <a href="#">电话机</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">剃须刀</a>
+                                            <a href="#">口腔护理</a>
+                                            <a href="#">电吹风</a>
+                                            <a href="#">美容器</a>
+                                            <a href="#">理发器</a>
+                                            <a href="#">剃/脱毛器</a>
+                                            <a href="#">足浴盆</a>
+                                            <a href="#">按摩器</a>
+                                            <a href="#">计步器/脂肪检测仪</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">家庭影院</a>
+                                            <a href="#">迷你音响</a>
+                                            <a href="#">DVD</a>
+                                            <a href="#">电视影音配件</a>
+                                    </dt>
+                            </div>
+                            <div class="jpg">
+                                <a href="#"><img src="7B32.tmp.jpg"/></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="sl">
+                        <p>男装、女装、童装、内衣 <span>></span></p>
+                        <div class="sr">
+                            <div class="srt">
+                                <a href="#">男装<i>></i></a>
+                                <a href="#">女装<i>></i></a>
+                                <a href="#">内衣<i>></i></a>
+                                <a href="#">童装童鞋<i>></i></a>
+                                <a href="#">国际品牌<i>></i></a>
+                                <a href="#">自营服装<i>></i></a>
+                            </div>
+                            <div class="srb">
+                                    <dt class="srbl"><a href="#">女装<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">男装<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">内衣<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">配饰<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">童装童鞋<i>></i></a></dt>
+                            </div>
+                            <div class="srl">
+                                    <dt class="srly">
+                                            <a href="#">油烟机</a>
+                                            <a href="#">燃气灶</a>
+                                            <a href="#">烟灶套装</a>
+                                            <a href="#">消毒柜</a>
+                                            <a href="#">洗碗机</a>
+                                            <a href="#">电热水器</a>
+                                            <a href="#">燃气热水器</a>
+                                            <a href="#">嵌入式厨电</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">电饭煲</a>
+                                            <a href="#">微波炉</a>
+                                            <a href="#">电烤箱</a>
+                                            <a href="#">电磁炉</a>
+                                            <a href="#">豆浆机</a>
+                                            <a href="#">咖啡机</a>
+                                            <a href="#">电压力锅</a>
+                                            <a href="#">榨汁机</a>
+                                            <a href="#">面包机</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">电风扇</a>
+                                            <a href="#">冷风扇</a>
+                                            <a href="#">吸尘器</a>
+                                            <a href="#">净化器</a>
+                                            <a href="#">扫地机器人</a>
+                                            <a href="#">加湿器</a>
+                                            <a href="#">挂熨机/熨斗</a>
+                                            <a href="#">取暖电器</a>
+                                            <a href="#">电话机</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">剃须刀</a>
+                                            <a href="#">口腔护理</a>
+                                            <a href="#">电吹风</a>
+                                            <a href="#">美容器</a>
+                                            <a href="#">理发器</a>
+                                            <a href="#">剃/脱毛器</a>
+                                            <a href="#">足浴盆</a>
+                                            <a href="#">按摩器</a>
+                                            <a href="#">计步器/脂肪检测仪</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">家庭影院</a>
+                                            <a href="#">迷你音响</a>
+                                            <a href="#">DVD</a>
+                                            <a href="#">电视影音配件</a>
+                                    </dt>
+                            </div>
+                            <div class="jpg">
+                                <a href="#"><img src="1496.tmp.jpg"/></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="sl">
+                        <p>个护化妆、清洁用品、宠物 <span>></span></p>
+                        <div class="sr">
+                            <div class="srt">
+                                <a href="#">京东超市<i>></i></a>
+                                <a href="#">清洁用品<i>></i></a>
+                                <a href="#">美妆商场<i>></i></a>
+                                <a href="#">官方旗舰店<i>></i></a>
+                                <a href="#">美妆特卖<i>></i></a>
+                                <a href="#">妆比社<i>></i></a>
+                                <a href="#">全球购美妆<i>></i></a>
+                            </div>
+                            <div class="srb">
+                                    <dt class="srbl"><a href="#">面部护肤<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">洗发护发<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">身体护理<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">口腔护理<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">女性护理<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">香水彩妆<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">清洁用品<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">宠物生活<i>></i></a></dt>
+                            </div>
+                            <div class="srl">
+                                    <dt class="srly">
+                                            <a href="#">壁挂式空调</a>
+                                            <a href="#">柜式空调</a>
+                                            <a href="#">中央空调</a>
+                                            <a href="#">空调配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">滚筒洗衣机</a>
+                                            <a href="#">洗烘一体机</a>
+                                            <a href="#">波轮洗衣机</a>
+                                            <a href="#">迷离洗衣机</a>
+                                            <a href="#">洗衣机配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">多门</a>
+                                            <a href="#">对开门</a>
+                                            <a href="#">三门</a>
+                                            <a href="#">双门</a>
+                                            <a href="#">冷柜/冰吧</a>
+                                            <a href="#">酒柜</a>
+                                            <a href="#">冰箱配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">油烟机</a>
+                                            <a href="#">燃气灶</a>
+                                            <a href="#">烟灶套装</a>
+                                            <a href="#">消毒柜</a>
+                                            <a href="#">洗碗机</a>
+                                            <a href="#">电热水器</a>
+                                            <a href="#">燃气热水器</a>
+                                            <a href="#">嵌入式厨电</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">电饭煲</a>
+                                            <a href="#">微波炉</a>
+                                            <a href="#">电烤箱</a>
+                                            <a href="#">电磁炉</a>
+                                            <a href="#">豆浆机</a>
+                                            <a href="#">咖啡机</a>
+                                            <a href="#">电压力锅</a>
+                                            <a href="#">榨汁机</a>
+                                            <a href="#">面包机</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">电风扇</a>
+                                            <a href="#">冷风扇</a>
+                                            <a href="#">吸尘器</a>
+                                            <a href="#">净化器</a>
+                                            <a href="#">扫地机器人</a>
+                                            <a href="#">加湿器</a>
+                                            <a href="#">挂熨机/熨斗</a>
+                                            <a href="#">取暖电器</a>
+                                            <a href="#">电话机</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">剃须刀</a>
+                                            <a href="#">口腔护理</a>
+                                            <a href="#">电吹风</a>
+                                            <a href="#">美容器</a>
+                                            <a href="#">理发器</a>
+                                            <a href="#">剃/脱毛器</a>
+                                            <a href="#">足浴盆</a>
+                                            <a href="#">按摩器</a>
+                                            <a href="#">计步器/脂肪检测仪</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">家庭影院</a>
+                                            <a href="#">迷你音响</a>
+                                            <a href="#">DVD</a>
+                                            <a href="#">电视影音配件</a>
+                                    </dt>
+                            </div>
+                            <div class="jpg">
+                                <a href="#"><img src="1151.tmp.jpg"/></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="sl">
+                        <p>鞋靴、箱包、珠宝、奢侈品 <span>></span></p>
+                        <div class="sr">
+                            <div class="srt">
+                                <a href="#">当季热卖<i>></i></a>
+                                <a href="#">国际品牌<i>></i></a>
+                                <a href="#">时尚期刊<i>></i></a>
+                                <a href="#">国际珠宝馆<i>></i></a>
+                                <a href="#">奢侈品<i>></i></a>
+                                <a href="#">收藏投资<i>></i></a>
+                            </div>
+                            <div class="srb">
+                                    <dt class="srbl"><a href="#">时尚女鞋<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">流行男鞋<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">潮流女包<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">精品男包<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">功能箱包<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">奢侈品<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">礼品<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">珠宝首饰<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">金银投资<i>></i></a></dt>
+                            </div>
+                            <div class="srl">
+                                <dt class="srly">
+                                            <a href="#">合资品牌</a>
+                                            <a href="#">国产品牌</a>
+                                            <a href="#">互联网品牌</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">壁挂式空调</a>
+                                            <a href="#">柜式空调</a>
+                                            <a href="#">中央空调</a>
+                                            <a href="#">空调配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">滚筒洗衣机</a>
+                                            <a href="#">洗烘一体机</a>
+                                            <a href="#">波轮洗衣机</a>
+                                            <a href="#">迷离洗衣机</a>
+                                            <a href="#">洗衣机配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">多门</a>
+                                            <a href="#">对开门</a>
+                                            <a href="#">三门</a>
+                                            <a href="#">双门</a>
+                                            <a href="#">冷柜/冰吧</a>
+                                            <a href="#">酒柜</a>
+                                            <a href="#">冰箱配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">油烟机</a>
+                                            <a href="#">燃气灶</a>
+                                            <a href="#">烟灶套装</a>
+                                            <a href="#">消毒柜</a>
+                                            <a href="#">洗碗机</a>
+                                            <a href="#">电热水器</a>
+                                            <a href="#">燃气热水器</a>
+                                            <a href="#">嵌入式厨电</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">电饭煲</a>
+                                            <a href="#">微波炉</a>
+                                            <a href="#">电烤箱</a>
+                                            <a href="#">电磁炉</a>
+                                            <a href="#">豆浆机</a>
+                                            <a href="#">咖啡机</a>
+                                            <a href="#">电压力锅</a>
+                                            <a href="#">榨汁机</a>
+                                            <a href="#">面包机</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">电风扇</a>
+                                            <a href="#">冷风扇</a>
+                                            <a href="#">吸尘器</a>
+                                            <a href="#">净化器</a>
+                                            <a href="#">扫地机器人</a>
+                                            <a href="#">加湿器</a>
+                                            <a href="#">挂熨机/熨斗</a>
+                                            <a href="#">取暖电器</a>
+                                            <a href="#">电话机</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">剃须刀</a>
+                                            <a href="#">口腔护理</a>
+                                            <a href="#">电吹风</a>
+                                            <a href="#">美容器</a>
+                                            <a href="#">理发器</a>
+                                            <a href="#">剃/脱毛器</a>
+                                            <a href="#">足浴盆</a>
+                                            <a href="#">按摩器</a>
+                                            <a href="#">计步器/脂肪检测仪</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">家庭影院</a>
+                                            <a href="#">迷你音响</a>
+                                            <a href="#">DVD</a>
+                                            <a href="#">电视影音配件</a>
+                                    </dt>
+                            </div>
+                            <div class="jpg">
+                                <a href="#"><img src="CCC5.tmp.jpg"/></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="sl">
+                        <p>运动户外、钟表 <span>></span></p>
+                        <div class="sr">
+                            <div class="srt">
+                                <a href="#">赛事<i>></i></a>
+                                <a href="#">运动城<i>></i></a>
+                                <a href="#">户外馆<i>></i></a>
+                                <a href="#">健身房<i>></i></a>
+                                <a href="#">骑行馆<i>></i></a>
+                                <a href="#">钟表城<i>></i></a>
+                            </div>
+                            <div class="srb">
+                                    <dt class="srbl"><a href="#">运动鞋包<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">运动服饰<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">健身训练<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">骑行运动<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">体育用品<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">户外鞋服<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">户外装备<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">垂钓用品<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">游泳用品<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">钟表<i>></i></a></dt>
+                            </div>
+                            <div class="srl">
+                                <dt class="srly">
+                                            <a href="#">合资品牌</a>
+                                            <a href="#">国产品牌</a>
+                                            <a href="#">互联网品牌</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">壁挂式空调</a>
+                                            <a href="#">柜式空调</a>
+                                            <a href="#">中央空调</a>
+                                            <a href="#">空调配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">滚筒洗衣机</a>
+                                            <a href="#">洗烘一体机</a>
+                                            <a href="#">波轮洗衣机</a>
+                                            <a href="#">迷离洗衣机</a>
+                                            <a href="#">洗衣机配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">多门</a>
+                                            <a href="#">对开门</a>
+                                            <a href="#">三门</a>
+                                            <a href="#">双门</a>
+                                            <a href="#">冷柜/冰吧</a>
+                                            <a href="#">酒柜</a>
+                                            <a href="#">冰箱配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">油烟机</a>
+                                            <a href="#">燃气灶</a>
+                                            <a href="#">烟灶套装</a>
+                                            <a href="#">消毒柜</a>
+                                            <a href="#">洗碗机</a>
+                                            <a href="#">电热水器</a>
+                                            <a href="#">燃气热水器</a>
+                                            <a href="#">嵌入式厨电</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">滚筒洗衣机</a>
+                                            <a href="#">洗烘一体机</a>
+                                            <a href="#">波轮洗衣机</a>
+                                            <a href="#">迷离洗衣机</a>
+                                            <a href="#">洗衣机配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">电饭煲</a>
+                                            <a href="#">微波炉</a>
+                                            <a href="#">电烤箱</a>
+                                            <a href="#">电磁炉</a>
+                                            <a href="#">豆浆机</a>
+                                            <a href="#">咖啡机</a>
+                                            <a href="#">电压力锅</a>
+                                            <a href="#">榨汁机</a>
+                                            <a href="#">面包机</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">电风扇</a>
+                                            <a href="#">冷风扇</a>
+                                            <a href="#">吸尘器</a>
+                                            <a href="#">净化器</a>
+                                            <a href="#">扫地机器人</a>
+                                            <a href="#">加湿器</a>
+                                            <a href="#">挂熨机/熨斗</a>
+                                            <a href="#">取暖电器</a>
+                                            <a href="#">电话机</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">剃须刀</a>
+                                            <a href="#">口腔护理</a>
+                                            <a href="#">电吹风</a>
+                                            <a href="#">美容器</a>
+                                            <a href="#">理发器</a>
+                                            <a href="#">剃/脱毛器</a>
+                                            <a href="#">足浴盆</a>
+                                            <a href="#">按摩器</a>
+                                            <a href="#">计步器/脂肪检测仪</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">家庭影院</a>
+                                            <a href="#">迷你音响</a>
+                                            <a href="#">DVD</a>
+                                            <a href="#">电视影音配件</a>
+                                    </dt>
+                            </div>
+                            <div class="jpg">
+                                <a href="#"><img src="590E.tmp.jpg"/></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="sl">
+                        <p>汽车、汽车用品 <span>></span></p>
+                        <div class="sr">
+                            <div class="srt">
+                                <a href="#">全新汽车<i>></i></a>
+                                <a href="#">汽车用品<i>></i></a>
+                                <a href="#">旗舰店<i>></i></a>
+                                <a href="#">二手车<i>></i></a>
+                                <a href="#">直营店<i>></i></a>
+                            </div>
+                            <div class="srb">
+                                    <dt class="srbl"><a href="#">汽车车型<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">汽车价格<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">汽车品牌<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">维修保养<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">车载电器<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">美容清洗<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">汽车装饰<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">安全自驾<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">赛事改装<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">汽车服务<i>></i></a></dt>
+                            </div>
+                            <div class="srl">
+                                    <dt class="srly">
+                                            <a href="#">合资品牌</a>
+                                            <a href="#">国产品牌</a>
+                                            <a href="#">互联网品牌</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">壁挂式空调</a>
+                                            <a href="#">柜式空调</a>
+                                            <a href="#">中央空调</a>
+                                            <a href="#">空调配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">滚筒洗衣机</a>
+                                            <a href="#">洗烘一体机</a>
+                                            <a href="#">波轮洗衣机</a>
+                                            <a href="#">迷离洗衣机</a>
+                                            <a href="#">洗衣机配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">多门</a>
+                                            <a href="#">对开门</a>
+                                            <a href="#">三门</a>
+                                            <a href="#">双门</a>
+                                            <a href="#">冷柜/冰吧</a>
+                                            <a href="#">酒柜</a>
+                                            <a href="#">冰箱配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">合资品牌</a>
+                                            <a href="#">国产品牌</a>
+                                            <a href="#">互联网品牌</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">油烟机</a>
+                                            <a href="#">燃气灶</a>
+                                            <a href="#">烟灶套装</a>
+                                            <a href="#">消毒柜</a>
+                                            <a href="#">洗碗机</a>
+                                            <a href="#">电热水器</a>
+                                            <a href="#">燃气热水器</a>
+                                            <a href="#">嵌入式厨电</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">电饭煲</a>
+                                            <a href="#">微波炉</a>
+                                            <a href="#">电烤箱</a>
+                                            <a href="#">电磁炉</a>
+                                            <a href="#">豆浆机</a>
+                                            <a href="#">咖啡机</a>
+                                            <a href="#">电压力锅</a>
+                                            <a href="#">榨汁机</a>
+                                            <a href="#">面包机</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">电风扇</a>
+                                            <a href="#">冷风扇</a>
+                                            <a href="#">吸尘器</a>
+                                            <a href="#">净化器</a>
+                                            <a href="#">扫地机器人</a>
+                                            <a href="#">加湿器</a>
+                                            <a href="#">挂熨机/熨斗</a>
+                                            <a href="#">取暖电器</a>
+                                            <a href="#">电话机</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">剃须刀</a>
+                                            <a href="#">口腔护理</a>
+                                            <a href="#">电吹风</a>
+                                            <a href="#">美容器</a>
+                                            <a href="#">理发器</a>
+                                            <a href="#">剃/脱毛器</a>
+                                            <a href="#">足浴盆</a>
+                                            <a href="#">按摩器</a>
+                                            <a href="#">计步器/脂肪检测仪</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">家庭影院</a>
+                                            <a href="#">迷你音响</a>
+                                            <a href="#">DVD</a>
+                                            <a href="#">电视影音配件</a>
+                                    </dt>
+                            </div>
+                            <div class="jpg">
+                                <a href="#"><img src="E8D1.tmp.jpg"/></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="sl">
+                        <p>母婴、玩具乐器 <span>></span></p>
+                        <div class="sr">
+                            <div class="srt">
+                                <a href="#">京东超市<i>></i></a>
+                                <a href="#">母婴<i>></i></a>
+                                <a href="#">玩具乐器<i>></i></a>
+                                <a href="#">品牌街<i>></i></a>
+                                <a href="#">亲子馆<i>></i></a>
+                                <a href="#">全球购母婴<i>></i></a>
+                                <a href="#">大牌特卖<i>></i></a>
+                            </div>
+                            <div class="srb">
+                                    <dt class="srbl"><a href="#">奶粉<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">营养辅食<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">尿裤湿巾<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">喂养用品<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">洗护用品<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">寝居服饰<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">妈妈专区<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">童车童床<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">玩具<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">乐器<i>></i></a></dt>
+                            </div>
+                            <div class="srl">
+                                    <dt class="srly">
+                                            <a href="#">合资品牌</a>
+                                            <a href="#">国产品牌</a>
+                                            <a href="#">互联网品牌</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">壁挂式空调</a>
+                                            <a href="#">柜式空调</a>
+                                            <a href="#">中央空调</a>
+                                            <a href="#">空调配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">滚筒洗衣机</a>
+                                            <a href="#">洗烘一体机</a>
+                                            <a href="#">波轮洗衣机</a>
+                                            <a href="#">迷离洗衣机</a>
+                                            <a href="#">洗衣机配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">壁挂式空调</a>
+                                            <a href="#">柜式空调</a>
+                                            <a href="#">中央空调</a>
+                                            <a href="#">空调配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">多门</a>
+                                            <a href="#">对开门</a>
+                                            <a href="#">三门</a>
+                                            <a href="#">双门</a>
+                                            <a href="#">冷柜/冰吧</a>
+                                            <a href="#">酒柜</a>
+                                            <a href="#">冰箱配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">油烟机</a>
+                                            <a href="#">燃气灶</a>
+                                            <a href="#">烟灶套装</a>
+                                            <a href="#">消毒柜</a>
+                                            <a href="#">洗碗机</a>
+                                            <a href="#">电热水器</a>
+                                            <a href="#">燃气热水器</a>
+                                            <a href="#">嵌入式厨电</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">电饭煲</a>
+                                            <a href="#">微波炉</a>
+                                            <a href="#">电烤箱</a>
+                                            <a href="#">电磁炉</a>
+                                            <a href="#">豆浆机</a>
+                                            <a href="#">咖啡机</a>
+                                            <a href="#">电压力锅</a>
+                                            <a href="#">榨汁机</a>
+                                            <a href="#">面包机</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">电风扇</a>
+                                            <a href="#">冷风扇</a>
+                                            <a href="#">吸尘器</a>
+                                            <a href="#">净化器</a>
+                                            <a href="#">扫地机器人</a>
+                                            <a href="#">加湿器</a>
+                                            <a href="#">挂熨机/熨斗</a>
+                                            <a href="#">取暖电器</a>
+                                            <a href="#">电话机</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">剃须刀</a>
+                                            <a href="#">口腔护理</a>
+                                            <a href="#">电吹风</a>
+                                            <a href="#">美容器</a>
+                                            <a href="#">理发器</a>
+                                            <a href="#">剃/脱毛器</a>
+                                            <a href="#">足浴盆</a>
+                                            <a href="#">按摩器</a>
+                                            <a href="#">计步器/脂肪检测仪</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">家庭影院</a>
+                                            <a href="#">迷你音响</a>
+                                            <a href="#">DVD</a>
+                                            <a href="#">电视影音配件</a>
+                                    </dt>
+                            </div>
+                            <div class="jpg">
+                                <a href="#"><img src="5DA4.tmp.jpg"/></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="sl">
+                        <p>食品、酒类、生鲜、特产 <span>></span></p>
+                        <div class="sr">
+                            <div class="srt">
+                                <a href="#">生鲜<i>></i></a>
+                                <a href="#">食品饮料<i>></i></a>
+                                <a href="#">酒类<i>></i></a>
+                                <a href="#">地方特产<i>></i></a>
+                                <a href="#">全球购美食<i>></i></a>
+                            </div>
+                            <div class="srb">
+                                    <dt class="srbl"><a href="#">新鲜水果<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">海鲜水产<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">肉禽蛋品<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">新鲜蔬菜<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">冷饮冻食<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">中外名酒<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">进口食品<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">休闲食品<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">地方特产<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">茗茶<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">饮料冲调<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">粮油调味<i>></i></a></dt>
+                            </div>
+                            <div class="srl">
+                                    <dt class="srly">
+                                            <a href="#">合资品牌</a>
+                                            <a href="#">国产品牌</a>
+                                            <a href="#">互联网品牌</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">壁挂式空调</a>
+                                            <a href="#">柜式空调</a>
+                                            <a href="#">中央空调</a>
+                                            <a href="#">空调配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">滚筒洗衣机</a>
+                                            <a href="#">洗烘一体机</a>
+                                            <a href="#">波轮洗衣机</a>
+                                            <a href="#">迷离洗衣机</a>
+                                            <a href="#">洗衣机配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">合资品牌</a>
+                                            <a href="#">国产品牌</a>
+                                            <a href="#">互联网品牌</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">壁挂式空调</a>
+                                            <a href="#">柜式空调</a>
+                                            <a href="#">中央空调</a>
+                                            <a href="#">空调配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">滚筒洗衣机</a>
+                                            <a href="#">洗烘一体机</a>
+                                            <a href="#">波轮洗衣机</a>
+                                            <a href="#">迷离洗衣机</a>
+                                            <a href="#">洗衣机配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">多门</a>
+                                            <a href="#">对开门</a>
+                                            <a href="#">三门</a>
+                                            <a href="#">双门</a>
+                                            <a href="#">冷柜/冰吧</a>
+                                            <a href="#">酒柜</a>
+                                            <a href="#">冰箱配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">油烟机</a>
+                                            <a href="#">燃气灶</a>
+                                            <a href="#">烟灶套装</a>
+                                            <a href="#">消毒柜</a>
+                                            <a href="#">洗碗机</a>
+                                            <a href="#">电热水器</a>
+                                            <a href="#">燃气热水器</a>
+                                            <a href="#">嵌入式厨电</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">电饭煲</a>
+                                            <a href="#">微波炉</a>
+                                            <a href="#">电烤箱</a>
+                                            <a href="#">电磁炉</a>
+                                            <a href="#">豆浆机</a>
+                                            <a href="#">咖啡机</a>
+                                            <a href="#">电压力锅</a>
+                                            <a href="#">榨汁机</a>
+                                            <a href="#">面包机</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">电风扇</a>
+                                            <a href="#">冷风扇</a>
+                                            <a href="#">吸尘器</a>
+                                            <a href="#">净化器</a>
+                                            <a href="#">扫地机器人</a>
+                                            <a href="#">加湿器</a>
+                                            <a href="#">挂熨机/熨斗</a>
+                                            <a href="#">取暖电器</a>
+                                            <a href="#">电话机</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">剃须刀</a>
+                                            <a href="#">口腔护理</a>
+                                            <a href="#">电吹风</a>
+                                            <a href="#">美容器</a>
+                                            <a href="#">理发器</a>
+                                            <a href="#">剃/脱毛器</a>
+                                            <a href="#">足浴盆</a>
+                                            <a href="#">按摩器</a>
+                                            <a href="#">计步器/脂肪检测仪</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">家庭影院</a>
+                                            <a href="#">迷你音响</a>
+                                            <a href="#">DVD</a>
+                                            <a href="#">电视影音配件</a>
+                                    </dt>
+                            </div>
+                            <div class="jpg">
+                                <a href="#"><img src="CD69.tmp.jpg"/></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="sl">
+                        <p>医药保健 <span>></span></p>
+                        <div class="sr">
+                            <div class="srt">
+                                <a href="#">专科用药<i>></i></a>
+                                <a href="#">滋补养生<i>></i></a>
+                                <a href="#">膳食补充<i>></i></a>
+                                <a href="#">健康监测<i>></i></a>
+                                <a href="#">两性情话<i>></i></a>
+                                <a href="#">靓眼视界<i>></i></a>
+                            </div>
+                            <div class="srb">
+                                    <dt class="srbl"><a href="#">中西药品<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">营养健康<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">营养成分<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">滋补养生<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">成人用品<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">保健器械<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">护理护具<i>></i></a></dt>
+                            </div>
+                            <div class="srl">
+                                    <dt class="srly">
+                                            <a href="#">滚筒洗衣机</a>
+                                            <a href="#">洗烘一体机</a>
+                                            <a href="#">波轮洗衣机</a>
+                                            <a href="#">迷离洗衣机</a>
+                                            <a href="#">洗衣机配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">多门</a>
+                                            <a href="#">对开门</a>
+                                            <a href="#">三门</a>
+                                            <a href="#">双门</a>
+                                            <a href="#">冷柜/冰吧</a>
+                                            <a href="#">酒柜</a>
+                                            <a href="#">冰箱配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">油烟机</a>
+                                            <a href="#">燃气灶</a>
+                                            <a href="#">烟灶套装</a>
+                                            <a href="#">消毒柜</a>
+                                            <a href="#">洗碗机</a>
+                                            <a href="#">电热水器</a>
+                                            <a href="#">燃气热水器</a>
+                                            <a href="#">嵌入式厨电</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">电饭煲</a>
+                                            <a href="#">微波炉</a>
+                                            <a href="#">电烤箱</a>
+                                            <a href="#">电磁炉</a>
+                                            <a href="#">豆浆机</a>
+                                            <a href="#">咖啡机</a>
+                                            <a href="#">电压力锅</a>
+                                            <a href="#">榨汁机</a>
+                                            <a href="#">面包机</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">电风扇</a>
+                                            <a href="#">冷风扇</a>
+                                            <a href="#">吸尘器</a>
+                                            <a href="#">净化器</a>
+                                            <a href="#">扫地机器人</a>
+                                            <a href="#">加湿器</a>
+                                            <a href="#">挂熨机/熨斗</a>
+                                            <a href="#">取暖电器</a>
+                                            <a href="#">电话机</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">剃须刀</a>
+                                            <a href="#">口腔护理</a>
+                                            <a href="#">电吹风</a>
+                                            <a href="#">美容器</a>
+                                            <a href="#">理发器</a>
+                                            <a href="#">剃/脱毛器</a>
+                                            <a href="#">足浴盆</a>
+                                            <a href="#">按摩器</a>
+                                            <a href="#">计步器/脂肪检测仪</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">家庭影院</a>
+                                            <a href="#">迷你音响</a>
+                                            <a href="#">DVD</a>
+                                            <a href="#">电视影音配件</a>
+                                    </dt>
+                            </div>
+                            <div class="jpg">
+                                <a href="#"><img src="52C0.tmp.jpg"/></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="sl">
+                        <p>图书、音像、电子书 <span>></span></p>
+                        <div class="sr">
+                            <div class="srt">
+                                <a href="#">图书频道<i>></i></a>
+                                <a href="#">音像<i>></i></a>
+                                <a href="#">电子书<i>></i></a>
+                                <a href="#">图书榜<i>></i></a>
+                                <a href="#">音乐榜<i>></i></a>
+                                <a href="#">文娱众筹馆<i>></i></a>
+                            </div>
+                            <div class="srb">
+                                    <dt class="srbl"><a href="#">音像<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">少儿<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">教育<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">文艺<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">经管励志<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">人文社科<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">生活<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">科技<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">刊/原版<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">电子书<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">数字音乐<i>></i></a></dt>
+                            </div>
+                            <div class="srl">
+                                    <dt class="srly">
+                                            <a href="#">合资品牌</a>
+                                            <a href="#">国产品牌</a>
+                                            <a href="#">互联网品牌</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">壁挂式空调</a>
+                                            <a href="#">柜式空调</a>
+                                            <a href="#">中央空调</a>
+                                            <a href="#">空调配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">合资品牌</a>
+                                            <a href="#">国产品牌</a>
+                                            <a href="#">互联网品牌</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">壁挂式空调</a>
+                                            <a href="#">柜式空调</a>
+                                            <a href="#">中央空调</a>
+                                            <a href="#">空调配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">滚筒洗衣机</a>
+                                            <a href="#">洗烘一体机</a>
+                                            <a href="#">波轮洗衣机</a>
+                                            <a href="#">迷离洗衣机</a>
+                                            <a href="#">洗衣机配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">多门</a>
+                                            <a href="#">对开门</a>
+                                            <a href="#">三门</a>
+                                            <a href="#">双门</a>
+                                            <a href="#">冷柜/冰吧</a>
+                                            <a href="#">酒柜</a>
+                                            <a href="#">冰箱配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">油烟机</a>
+                                            <a href="#">燃气灶</a>
+                                            <a href="#">烟灶套装</a>
+                                            <a href="#">消毒柜</a>
+                                            <a href="#">洗碗机</a>
+                                            <a href="#">电热水器</a>
+                                            <a href="#">燃气热水器</a>
+                                            <a href="#">嵌入式厨电</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">电饭煲</a>
+                                            <a href="#">微波炉</a>
+                                            <a href="#">电烤箱</a>
+                                            <a href="#">电磁炉</a>
+                                            <a href="#">豆浆机</a>
+                                            <a href="#">咖啡机</a>
+                                            <a href="#">电压力锅</a>
+                                            <a href="#">榨汁机</a>
+                                            <a href="#">面包机</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">电风扇</a>
+                                            <a href="#">冷风扇</a>
+                                            <a href="#">吸尘器</a>
+                                            <a href="#">净化器</a>
+                                            <a href="#">扫地机器人</a>
+                                            <a href="#">加湿器</a>
+                                            <a href="#">挂熨机/熨斗</a>
+                                            <a href="#">取暖电器</a>
+                                            <a href="#">电话机</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">剃须刀</a>
+                                            <a href="#">口腔护理</a>
+                                            <a href="#">电吹风</a>
+                                            <a href="#">美容器</a>
+                                            <a href="#">理发器</a>
+                                            <a href="#">剃/脱毛器</a>
+                                            <a href="#">足浴盆</a>
+                                            <a href="#">按摩器</a>
+                                            <a href="#">计步器/脂肪检测仪</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">家庭影院</a>
+                                            <a href="#">迷你音响</a>
+                                            <a href="#">DVD</a>
+                                            <a href="#">电视影音配件</a>
+                                    </dt>
+                            </div>
+                            <div class="jpg">
+                                <a href="#"><img src="C1F8.tmp.jpg"/></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="sl">
+                        <p>彩票、旅行、充值、票务 <span>></span></p>
+                        <div class="sr">
+                            <div class="srt">
+                                <a href="#">充值缴费<i>></i></a>
+                                <a href="#">京东彩票<i>></i></a>
+                                <a href="#">培训机构<i>></i></a>
+                                <a href="#">优选机票<i>></i></a>
+                                <a href="#">火车票<i>></i></a>
+                                <a href="#">京东游戏<i>></i></a>
+                            </div>
+                            <div class="srb">
+                                    <dt class="srbl"><a href="#">彩票<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">通讯充值<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">游戏<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">本地生活<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">演出票务<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">教育培训<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">商旅服务<i>></i></a></dt>
+                            </div>
+                            <div class="srl">
+                                    <dt class="srly">
+                                            <a href="#">合资品牌</a>
+                                            <a href="#">国产品牌</a>
+                                            <a href="#">互联网品牌</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">壁挂式空调</a>
+                                            <a href="#">柜式空调</a>
+                                            <a href="#">中央空调</a>
+                                            <a href="#">空调配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">滚筒洗衣机</a>
+                                            <a href="#">洗烘一体机</a>
+                                            <a href="#">波轮洗衣机</a>
+                                            <a href="#">迷离洗衣机</a>
+                                            <a href="#">洗衣机配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">多门</a>
+                                            <a href="#">对开门</a>
+                                            <a href="#">三门</a>
+                                            <a href="#">双门</a>
+                                            <a href="#">冷柜/冰吧</a>
+                                            <a href="#">酒柜</a>
+                                            <a href="#">冰箱配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">油烟机</a>
+                                            <a href="#">燃气灶</a>
+                                            <a href="#">烟灶套装</a>
+                                            <a href="#">消毒柜</a>
+                                            <a href="#">洗碗机</a>
+                                            <a href="#">电热水器</a>
+                                            <a href="#">燃气热水器</a>
+                                            <a href="#">嵌入式厨电</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">电饭煲</a>
+                                            <a href="#">微波炉</a>
+                                            <a href="#">电烤箱</a>
+                                            <a href="#">电磁炉</a>
+                                            <a href="#">豆浆机</a>
+                                            <a href="#">咖啡机</a>
+                                            <a href="#">电压力锅</a>
+                                            <a href="#">榨汁机</a>
+                                            <a href="#">面包机</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">电风扇</a>
+                                            <a href="#">冷风扇</a>
+                                            <a href="#">吸尘器</a>
+                                            <a href="#">净化器</a>
+                                            <a href="#">扫地机器人</a>
+                                            <a href="#">加湿器</a>
+                                            <a href="#">挂熨机/熨斗</a>
+                                            <a href="#">取暖电器</a>
+                                            <a href="#">电话机</a>
+                                    </dt>
+                            </div>
+                            <div class="jpg">
+                                <a href="#"><img src="33B0.tmp.jpg"/></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="sl">
+                        <p>理财、众筹、白条、保险 <span>></span></p>
+                        <div class="sr">
+                            <div class="srt">
+                                <a href="#">金融首页<i>></i></a>
+                                <a href="#">尖er货<i>></i></a>
+                                <a href="#">奇趣日报<i>></i></a>
+                                <a href="#">大牌免息<i>></i></a>
+                                <a href="#">财发现<i>></i></a>
+                            </div>
+                            <div class="srb">
+                                    <dt class="srbl"><a href="#">理财<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">众筹<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">东家<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">白条<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">钱包<i>></i></a></dt>
+                                    <dt class="srbl"><a href="#">保险<i>></i></a></dt>
+                            </div>
+                            <div class="srl">
+                                    <dt class="srly">
+                                            <a href="#">合资品牌</a>
+                                            <a href="#">国产品牌</a>
+                                            <a href="#">互联网品牌</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">壁挂式空调</a>
+                                            <a href="#">柜式空调</a>
+                                            <a href="#">中央空调</a>
+                                            <a href="#">空调配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">滚筒洗衣机</a>
+                                            <a href="#">洗烘一体机</a>
+                                            <a href="#">波轮洗衣机</a>
+                                            <a href="#">迷离洗衣机</a>
+                                            <a href="#">洗衣机配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">多门</a>
+                                            <a href="#">对开门</a>
+                                            <a href="#">三门</a>
+                                            <a href="#">双门</a>
+                                            <a href="#">冷柜/冰吧</a>
+                                            <a href="#">酒柜</a>
+                                            <a href="#">冰箱配件</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">油烟机</a>
+                                            <a href="#">燃气灶</a>
+                                            <a href="#">烟灶套装</a>
+                                            <a href="#">消毒柜</a>
+                                            <a href="#">洗碗机</a>
+                                            <a href="#">电热水器</a>
+                                            <a href="#">燃气热水器</a>
+                                            <a href="#">嵌入式厨电</a>
+                                    </dt>
+                                    <dt class="srly">
+                                            <a href="#">电饭煲</a>
+                                            <a href="#">微波炉</a>
+                                            <a href="#">电烤箱</a>
+                                            <a href="#">电磁炉</a>
+                                            <a href="#">豆浆机</a>
+                                            <a href="#">咖啡机</a>
+                                            <a href="#">电压力锅</a>
+                                            <a href="#">榨汁机</a>
+                                            <a href="#">面包机</a>
+                                    </dt>
+                            </div>
+                            <div class="jpg">
+                                <a href="#"><img src="91F7.tmp.jpg"/></a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div id="shid"></div>
+            </div>
+        <!--以上侧栏菜单-->
+        <div id="imgs">
+            <div id="index">
+                <div class="c c1_"></div>
+                <div class="c c2_"></div>
+                <div class="c c3_"></div>
+                <div class="c c4_"></div>
+                <div class="c c5_"></div>
+                <div class="c c6_"></div>
+                <div class="c c7_"></div>
+            </div>
+        </div>
+        <!--简易图片轮循-->
+        <div class="news">
+            <div class="nt">
+                <div class="nhead">
+                    京东快报
+                    <a href="#">更多></a>
+                </div>
+            </div>
+            <div class="nb">
+                <a href="#"><span>[特惠]</span>黄轩力荐：猫狗粮1元秒杀</a>
+                <a href="#"><span>[公告]</span>浙江地区订单配送可能延迟</a>
+                <a href="#"><span>[特惠]</span>家装跨店4免1爽购4天</a>
+                <a href="#"><span>[公告]</span>贵州扶贫馆 高原香茗邀你赏</a>
+                <a href="#"><span>[特惠]</span>文教好书低价购 满300减100</a>
+            </div>
+            <div class="tickets">
+                                    <div class="buytic">
+                                            <div class="buytop">
+                                                    <div id="A" class="A"><a href="#"><p>话费</p></a></div>
+                                                    <div id="B" class="A"><a href="#"><p>机票</p></a></div>
+                                                    <div id="C" class="A"><a href="#"><p>电影票</p></a></div>
+                                                    <div id="D" class="A"><a href="#"><p class="last">游戏</p></a></div>
+                                            </div>
+                                            <div class="buylow">
+                                                    <div class="Ttable">
+                                                            <a href="#"><p>话费充值</p></a>
+                                                            <a href="#"><p>流量充值</p></a>
+                                                            <a href="#"><p>套餐变更</p></a>
+                                                    </div>
+                                                    <div class="Ltable">
+                                                            <form action="#">
+                                                                    <div class="shm"><div class="num">号码</div><input type="text" placeholder="移动、联通、电信"></div><br>
+                                                                    <div class="ll">流量</div><select name="phone" id="country">
+                                                                            <option value="money">100元</option>
+                                                                            <option value="money">200元</option>
+                                                                            <option value="money">300元</option>
+                                                                            <option value="money">500元</option>
+                                                                            <option value="money">1000元</option>
+                                                                    </select><div class="liz">￥98.0-￥100.0</div>
+                                                                    <br>
+                                                                    <br>
+                                                                    <button class="buto">快速充值</button>
+                                                            </form>
+                                                            <div class="other"></div>
+                                                    </div>
+                                            </div>
+                                    </div>
+                                    <div class="tdiv sdiv" id="AS">
+                                            <a href="#"><img src="icon/1.jpg"></a>
+                                            <a href="#"><p>话费</p></a>
+                                            
+                                    </div>
+                                    <div class="tdiv sdiv" id="BS">
+                                            <a href="#"><img src="icon/2.jpg"></a>
+                                            <a href="#"><p>机票</p></a>
+                                    </div>
+                                    <div class="tdiv sdiv" id="CS">
+                                            <a href="#"><img src="icon/3.jpg"></a>
+                                            <a href="#"><p>电影票</p></a>
+                                    </div>
+                                    <div class="tdiv sdiv" id="DS">
+                                            <a href="#"><img src="icon/4.jpg"></a>
+                                            <a href="#"><p>游戏</p></a>
+                                    </div>
+                                    <div class="tdiv">
+                                            <a href="#"><img src="icon/5.jpg"></a>
+                                            <a href="#"><p>彩票</p></a>
+                                    </div>
+                                    <div class="tdiv">
+                                            <a href="#"><img src="icon/6.jpg"></a>
+                                            <a href="#"><p>加油卡</p></a>
+                                    </div>
+                                    <div class="tdiv">
+                                            <a href="#"><img src="icon/7.jpg"></a>
+                                            <a href="#"><p>酒店</p></a>
+                                    </div>
+                                    <div class="tdiv">
+                                            <a href="#"><img src="icon/8.jpg"></a>
+                                            <a href="#"><p>火车票</p></a>
+                                    </div>
+
+                                    <div class="tdiv">
+                                            <a href="#"><img src="icon/9.jpg"></a>
+                                            <a href="#"><p>众筹</p></a>
+                                    </div>
+                                    <div class="tdiv">
+                                            <a href="#"><img src="icon/10.jpg"></a>
+                                            <a href="#"><p>理财</p></a>
+                                    </div>
+                                    <div class="tdiv">
+                                            <a href="#"><img src="icon/11.jpg"></a>
+                                            <a href="#"><p>礼品卡</p></a>
+                                    </div>
+                                    <div class="tdiv">
+                                            <a href="#"><img src="icon/12.jpg"></a>
+                                            <a href="#"><p>白条</p></a>
+                                    </div>
+            </div>
+            <div class="khpic">
+                    <a href="#">
+                            <img src="kh.jpg">
+                    </a>
+            </div>
+        </div>
+        <!--今日推荐-->
+        <div class="mtj">
+                        <a href="#">
+                                <div class="cir"></div>
+                                <h1>今日推荐</h1>
+                        </a>
+        </div>-->
+        <!--<div class="play">
+                <div class="all">
+                        <div id="A1" class="tb">
+                                <p>Always</p>
+                        </div>
+                        <div id="B2" class="tb">
+                                <p>Fashion</p>
+                        </div>
+                        <div id="C3" class="tb">
+                                <p>Quality</p>
+                        </div>
+                        <div id="D4" class="tb">
+                                <p>Feature</p>
+                        </div>
+                        <div id="E5" class="tb">
+                                <p>Benefit</p>
+                        </div>
+                        <div id="F6" class="tb">
+                                <p>Guess</p>
+                        </div>
+                        <div id="H7" class="tb">
+                                <p>Back<br>Top</p>
+                        </div>
+                </div>
+        </div>-->
+     </body>
+</html>
